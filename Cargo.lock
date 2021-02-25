@@ -3,15 +3,3 @@
 [[package]]
 name = "foo"
 version = "0.1.0"
-
-[[patch.unused]]
-name = "rustc-std-workspace-alloc"
-version = "1.99.0"
-
-[[patch.unused]]
-name = "rustc-std-workspace-core"
-version = "1.99.0"
-
-[[patch.unused]]
-name = "rustc-std-workspace-std"
-version = "1.99.0"

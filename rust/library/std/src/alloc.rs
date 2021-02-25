@@ -28,7 +28,7 @@ use crate::sys_common::util::dumb_print;
 #[doc(inline)]
 pub use alloc_crate::alloc::*;
 
-pub use alloc::System;
+pub use sgx_alloc::System;
 
 static HOOK: AtomicPtr<()> = AtomicPtr::new(ptr::null_mut());
 

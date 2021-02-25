@@ -121,7 +121,7 @@ extern crate sgx_unwind;
 extern crate sgx_backtrace_sys;
 #[cfg(feature = "backtrace")]
 extern crate sgx_demangle;
-extern crate alloc;
+extern crate sgx_alloc;
 
 #[macro_use]
 extern crate sgx_types;

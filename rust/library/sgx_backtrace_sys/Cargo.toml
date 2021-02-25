@@ -24,3 +24,4 @@ sgx_build_helper = { path = "../sgx_build_helper" }
 [target.'cfg(not(target_env = "sgx"))'.dependencies]
 sgx_libc = { path = "../sgx_libc" }
 core={path="../core"}
+compiler_builtins = "0.1.39"

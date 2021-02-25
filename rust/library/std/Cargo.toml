@@ -25,6 +25,7 @@ untrusted_time = []
 
 [target.'cfg(not(target_env = "sgx"))'.dependencies]
 core={ path="../core" }
+alloc = { path = "../alloc" }
 sgx_types = { path = "../sgx_types" }
 sgx_libc = { path = "../sgx_libc" }
 sgx_trts = { path = "../sgx_trts" }
